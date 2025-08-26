@@ -1,0 +1,28 @@
+{
+  "name": "tokyo-fusion-themes",
+  "displayName": "Tokyo Fusion Themes",
+  "description": "Merged themes: Nord Deep × Tokyo Night Storm, Catppuccin Frappe × Tokyo Night Storm (Editing-first).",
+  "version": "0.0.1",
+  "publisher": "HuidaQ",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tokyo Gray Storm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyo-gray-storm.json"
+      },
+      {
+        "label": "Tokyo Cat-Frappe Storm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyo-cat-frappe-storm.json"
+      }
+    ]
+  }
+}
